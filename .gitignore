@@ -1,0 +1,22 @@
+# Python and Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Data: keep raw and intermediate EEG out of the repository, but include the
+# three small derived CSVs needed to rerun Notebook 04 without any download.
+data/*
+!data/cohort_labels.csv
+!data/preprocessing_log.csv
+!data/spectral_features.csv
+
+# Raw and intermediate EEG formats (safety net)
+*.edf
+*.fif
+*.eeg
+*.vhdr
+*.vmrk
+*.set
+*.fdt
+*.part

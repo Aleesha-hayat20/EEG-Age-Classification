@@ -1,0 +1,10 @@
+model,metric,mean,std
+Chance baseline,accuracy,0.5160493827160494,0.005521155499999456
+Chance baseline,balanced_accuracy,0.5,0.0
+Chance baseline,roc_auc,0.5,0.0
+Logistic regression,accuracy,0.8296296296296297,0.029474904657563767
+Logistic regression,balanced_accuracy,0.8292151344590369,0.029361609118521204
+Logistic regression,roc_auc,0.9043037314988535,0.027179234851438805
+Gradient boosting,accuracy,0.7950617283950617,0.027048027531119317
+Gradient boosting,balanced_accuracy,0.7953593763959618,0.027073177642645368
+Gradient boosting,roc_auc,0.8946600553917626,0.01725438530393255

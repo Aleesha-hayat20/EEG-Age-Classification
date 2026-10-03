@@ -1,0 +1,47 @@
+{
+  "dataset": "OpenNeuro ds005385 (Dortmund Vital Study), session 1, eyes-closed, pre-task",
+  "n_subjects": 405,
+  "n_features": 321,
+  "class_counts": {
+    "old": 209,
+    "young": 196
+  },
+  "evaluation": "nested cross-validation (5 outer folds, 3 inner folds)",
+  "gradient_boosting_nested_cv": {
+    "accuracy": {
+      "mean": 0.7950617283950617,
+      "std": 0.027048027531119317
+    },
+    "balanced_accuracy": {
+      "mean": 0.7953593763959618,
+      "std": 0.027073177642645368
+    },
+    "roc_auc": {
+      "mean": 0.8946600553917626,
+      "std": 0.01725438530393255
+    }
+  },
+  "permutation_test": {
+    "n_permutations": 100,
+    "true_roc_auc": 0.9023523630840703,
+    "p_value": 0.009900990099009901,
+    "fixed_hyperparameters": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 300,
+      "subsample": 0.8
+    }
+  },
+  "final_model_hyperparameters": {
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "n_estimators": 300,
+    "subsample": 0.8
+  },
+  "software": {
+    "python": "3.12.0",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  }
+}

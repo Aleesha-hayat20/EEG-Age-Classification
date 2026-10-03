@@ -1,0 +1,10 @@
+# Versions used to produce the results in this repository.
+# Notebook 04 (local): Python 3.12
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+
+# Notebooks 00-03 (EEG download and processing)
+mne==1.13.2
+requests==2.32.4
